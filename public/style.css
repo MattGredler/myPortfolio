@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* BODY */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background: url("../assets/bckgrnd.png");
+}
+
+/*NAVIGATION  */
+.navButton {
+  position: relative;
+
+}
+
+
+nav {
+  margin: 30px;
+}
+
+
+#git {
+  padding: 15px;
+}
+
+#git:hover {}
+
+#email {
+  padding: 15px;
+}
+
+#email:hover {}
+
+#dev {
+  padding: 15px;
+}
+
+#dev:hover {}
+
+#linkedIn {
+  padding: 15px;
+}
+
+#linkedIn:hover {}
+
+#twitter {
+  padding: 15px;
+}
+
+#twitter:hover {}
+
+/*  PORTRAIT */
+
+.self {
+  border: solid #2c5fa8;
+  object-fit: cover;
+  height: 200px;
+  width: 400px;
+  margin: 30px;
+  border-radius: 45px;
+  transition: transform .2s;
+}
+
+.self:hover {
+  /* transform: scale(3); */
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+}
+
+p {
+  margin: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-weight: bolder;
+}
+
+footer {
+  background-color: rgba(150, 150, 150, .6);
+  padding: 0px;
+}
+
+.arrow {
+  position: relative;
+  top: 5.5px;
+}
+
+.projects {
+  max-height: 125px;
+  max-width: auto;
+  padding: 50px;
+  padding-left: 10%;
+}
+
+hr {
+  width: 80%;
+  border-top: 3px, white;
+  color: #FFFFFF;
+}
+
+#work{
+  padding-left: 8%;
+}
+
+h4 {
+  font-size: .6em;
+  text-align: center;
+  margin: 0;
+}
